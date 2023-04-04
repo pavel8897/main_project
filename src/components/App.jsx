@@ -1,11 +1,12 @@
 import React from 'react'
+import Form from './form/index.jsx'
 import './app.less'
 
 const App = () => {
     return (
-        <div className='app'>
-            React is working!
-        </div>
+        <>
+            <Form />
+        </>
     )
 }
 
